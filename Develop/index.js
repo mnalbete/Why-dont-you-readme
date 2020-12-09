@@ -7,7 +7,7 @@ const questions = [
     {   
         type: "input",
         name: "title",
-        message: "What is the tittle of the project?",
+        message: "What is the title of the project?",
     },
     {
         type: "input",
@@ -40,15 +40,6 @@ const questions = [
         type: "input",
         name: "contribution",
         message: "Who contributed to this project",
-    },
-    {
-        type: "checkbox",
-        name: "test",
-        message: "Should you run a test?",
-        choice: [
-            "Yes",
-            "No",
-        ]
     },
     { 
         type: "input",

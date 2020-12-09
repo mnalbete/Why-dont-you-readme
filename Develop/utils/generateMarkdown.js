@@ -30,10 +30,6 @@ function generateMarkdown(response) {
 
   ## Contributers
   ${response.contribution}
-
-  ## Tested
-  ${response.test}
-
   
   ## reason
   ${response.question3}
